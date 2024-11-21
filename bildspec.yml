@@ -12,7 +12,7 @@ phases:
   pre_build:
     commands:
       - echo "Installing dependencies..."
-      - pip install -r - pip install -r electra312/requirements.txt
+      - pip install -r electra312/requirements.txt
   build:
     commands:
       - echo "Running tests..."
