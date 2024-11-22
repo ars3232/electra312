@@ -3,6 +3,8 @@ FROM python:3.11
 
 # Set the working directory inside the container
 WORKDIR /app
+# Use Node.js as the base image
+FROM node:16
 
 # Copy the requirements file
 COPY requirements.txt .
