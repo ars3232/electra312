@@ -12,6 +12,9 @@ COPY requirements.txt .
 # Install the project dependencies
 RUN pip install -r requirements.txt
 
+# Install dependencies
+RUN npm install
+
 # Copy the application code into the container
 COPY . .
 
