@@ -18,8 +18,8 @@ phases:
     commands:
       - echo "Running tests..."
       - echo "Building Docker image..."
-      - docker build -t aes3232/electra312: .
-      - docker push aes3232/electra312:
+      - docker build -t "docker.io/aes3232/electra312" .
+      - docker push "docker.io/aes3232/electra312"
   post_build:
     commands:
       - echo "Build completed successfully!"
